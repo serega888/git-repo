@@ -6,27 +6,26 @@
 public class Solution
 {
     public static int min(int a, int b, int c, int d)
-    {
-        int min ;
-        if(min2(a,b) < min2(c,d))
-		{
-		    min = min2(a,b);
-		}
-        return min;
-    }
- public static int min2(int a, int b)
- {
-     int min;
-	 if(a < b)
-	    min = a;
-		return min;
- }
-    public static void main(String[] args) throws Exception
-    {
-        System.out.println( min(1,2,3,4) );
-        System.out.println( min(-1,-2,-3,-4) );
-        System.out.println( min(3,5,3,9) );
-        System.out.println( min(10,5,10,20) );
-    }
+	    {
+	        int min = 0 ;
+	        if(min(a,b) < min(c,d))
+			{
+			    min = min(a,b);
+			}
+	        else
+	        {
+	        	min = min(c,d);
+	        }
+	        return min;
+	    }
+	 public static int min(int a, int b)
+	 {
+	     int min = 0;
+		 if(a < b)
+		    min = a;
+		 else 
+			 min = b;
+	 return min;
+}
 
 }
