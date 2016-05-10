@@ -7,12 +7,16 @@ public class Solution
 {
     public static int min(int a, int b, int c)
     {
-        int min;
-        if (a < b)
-        min = a;
-        else
-        min = b;//напишите тут ваш код
-        return 0;
+        int min = a;
+        if (b < min)
+      {
+         min = b
+      }
+      else if(c < min)
+      {
+         min = c;
+      }
+        return min;
     }
 
     public static void main(String[] args) throws Exception
