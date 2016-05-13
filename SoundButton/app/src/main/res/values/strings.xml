@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SoundButton</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="textNameButton">Поздороваться</string>
+    <string name="LargeText" />
+    <string name="textNameButton2">Cчитаем ворон</string>
+</resources>
